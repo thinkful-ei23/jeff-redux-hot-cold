@@ -1,6 +1,5 @@
-'use strict';
+import { createStore } from 'redux';
 
-import {createStore} from 'redux';
-import {actionsReducer} from './reducers';
+import { actionsReducer } from './reducers';
 
 export default createStore(actionsReducer);
